@@ -137,7 +137,6 @@ class HttpClientResponse implements Response {
 		HttpEntity entity = httpResponse.getEntity();
 		return entity != null && entity.isStreaming();
 	}
-	
 
 	@Override
 	public InputStream getResponseStream() throws IllegalStateException, IOException {

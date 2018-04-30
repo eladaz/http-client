@@ -122,7 +122,6 @@ public class HttpClientImpl implements HttpClient {
 	private Map<String, String> getDefaultHeaders() {
 		return addDefaultHeaders(Collections.<String, String>emptyMap());
 	}
-	
 
 	private Map<String, String> addDefaultHeaders(Map<String,String> headers) {
 		return addDefaultHeaders(headers, false);
